@@ -1,5 +1,5 @@
 def prime?(int)
-  if int <= 0
+  if int <= 1
     return false
   end
   prime_range_array = Array(2..Math.sqrt(int))
